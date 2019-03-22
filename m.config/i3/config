@@ -7,6 +7,8 @@ font pango: System San Francisco Display 10
 # thin borders
 hide_edge_borders both
 
+default_border none
+
 # drag windows
 floating_modifier $mod
 
@@ -48,13 +50,13 @@ bindsym $mod+a focus parent
 set $workspace1 "1 "
 set $workspace2 "2 "
 set $workspace3 "3 "
-set $workspace4 "4 "
-set $workspace5 "5 "
-set $workspace6 "6 "
+set $workspace4 "4 "
+set $workspace5 "5 "
+set $workspace6 "6 "
 set $workspace7 "7 "
-set $workspace8 "8 "
-set $workspace9 "9 "
-#set $workspace10 "10 "
+set $workspace8 "8 "
+set $workspace9 "9 "
+set $workspace10 "10 "
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
@@ -87,7 +89,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3
-bindsym $mod+Shift+e exec /home/pacman/.config/scripts/exit_menu
+bindsym $mod+Shift+e exec /home/pacman/.config/i3/scripts/exit_menu
 
 
 # resize window (you can also use the mouse for that)
@@ -97,7 +99,7 @@ mode "resize" {
     bindsym k resize shrink height 10 px or 10 ppt
     bindsym l resize grow width 10 px or 10 ppt
 
-    bindsym Lefj resize shrink width 10 px or 10 ppt
+    bindsym Left resize shrink width 10 px or 10 ppt
     bindsym Down resize grow height 10 px or 10 ppt
     bindsym Up resize shrink height 10 px or 10 ppt
     bindsym Right resize grow width 10 px or 10 ppt
@@ -124,6 +126,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # bar
 bar {
+        position top
   	status_command i3blocks -c /home/pacman/.config/i3/i3blocks.conf
 	colors {
 		background $bg-color
@@ -169,11 +172,14 @@ bindsym $mod+Shift+f exec firefox
 bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+q kill
 bindsym Print exec screenshot
-bindsym $mod+d exec rofi -show run -lines 3 
+#bindsym $mod+d exec rofi -show run -lines 3 
+bindsym $mod+d exec rofi -show run -lines 3 -opacity "85" -bw 0  -font "System San Francisco Display 12"
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 2 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 2 # decrease screen brightness
-bindsym $mod+0 i3lock-fancy -p
+#bindsym $mod+0 exec i3lock-fancy -p
+bindsym $mod+0 exec i3lock-fancy -p
+bindsym $mod+Shift+x exec redshift
 
 # startup
 #exec_always --no-startup-id feh --bg-scale /home/booker/.wallpaper.jpg
