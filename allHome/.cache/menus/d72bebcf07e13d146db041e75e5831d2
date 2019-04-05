@@ -1,0 +1,1685 @@
+1.2
+lxde-applications.menu
+10
+D/home/gfox/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/home/gfox/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/etc/xdg/menus/applications-merged
+D/home/gfox/.config/menus/applications-merged
+F/home/gfox/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+MATE;Unity;
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+2
+0
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+2
+0
+-xfce4-about.desktop
+About Xfce
+Information about the Xfce Desktop Environment
+help-about
+
+5
+
+xfce4-about
+0
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+-xfce4-appfinder.desktop
+Application Finder
+Find and launch applications installed on your system
+edit-find
+
+5
+
+xfce4-appfinder
+2
+0
+
+
+Utility;X-XFCE
+
+-atom.desktop
+Atom
+A hackable text editor for the 21st Century
+atom
+
+5
+Text Editor
+/usr/bin/atom %F
+2
+0
+
+
+GNOME;GTK;Utility;TextEditor;Development
+
+-xfce4-clipman.desktop
+Clipman
+Clipboard manager
+xfce4-clipman-plugin
+
+5
+
+xfce4-clipman
+0
+10
+xfce4-clipman
+
+GTK;Utility;TrayIcon
+
+-paranoid.desktop
+Compositing Editor
+Settings Editor for Compton
+desktop-effects
+
+5
+
+/usr/bin/paranoid.py
+2
+0
+
+
+Utility
+
+-compton.desktop
+compton
+Compositor for X11
+compton
+
+5
+X compositor
+compton
+0
+0
+/usr/bin/compton
+
+Utility
+
+-exo-file-manager.desktop
+File Manager
+Browse the file system
+system-file-manager
+
+5
+
+exo-open --launch FileManager %u
+2
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+-mousepad.desktop
+Mousepad
+Simple Text Editor
+accessories-text-editor
+
+5
+Text Editor
+mousepad %F
+2
+0
+
+
+Utility;TextEditor;GTK
+
+-nvim.desktop
+Neovim
+Edit text files
+nvim
+
+5
+Text Editor
+nvim %F
+1
+0
+nvim
+
+Utility;TextEditor
+Text,editor
+-nitrogen.desktop
+nitrogen
+Browse and set desktop backgrounds
+nitrogen
+
+5
+Wallpaper Setter
+nitrogen
+0
+0
+
+
+Utility;GTK;DesktopSettings
+background,desktop
+-xfce4-notes.desktop
+Notes
+Ideal for your quick notes
+xfce4-notes-plugin
+
+5
+
+xfce4-notes
+0
+10
+xfce4-notes
+
+GTK;Utility;TrayIcon
+
+-globaltime.desktop
+Orage Globaltime
+Show clocks from different countries
+orage_globaltime
+
+5
+Globaltime
+globaltime
+2
+0
+
+
+X-XFCE;Office;Clock;GTK;Utility
+
+-plank.desktop
+Plank
+Stupidly simple.
+plank
+
+5
+Dock
+plank
+0
+0
+
+
+Utility
+
+-xfce4-run.desktop
+Run Program...
+Run a program
+system-run
+
+5
+
+xfce4-appfinder --collapsed
+2
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+-xfce4-screenshooter.desktop
+Screenshot
+Take screenshots of the entire screen, of the active window or of a region
+applets-screenshooter
+
+5
+
+xfce4-screenshooter
+2
+0
+
+
+GTK;Utility
+
+-exo-terminal-emulator.desktop
+Terminal Emulator
+Use the command line
+utilities-terminal
+
+5
+
+exo-open --launch TerminalEmulator
+2
+8
+
+
+Utility;X-XFCE;X-Xfce-Toplevel
+
+-vim.desktop
+Vim
+Edit text files
+gvim
+
+5
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+Text,editor
+-xarchiver.desktop
+Xarchiver
+A GTK+ only archive manager
+xarchiver
+
+5
+Archive manager
+xarchiver %f
+2
+0
+
+
+GTK;Archiving;Compression;Utility
+GTK,android,archiver,archiving,comic book,compression,front end,frontend,7-zip,7z,7za,7zip,7zr,apk,ar,arj,bunzip2,bz2,bzip2,cbz,compress,cpio,deb,epub,gtar,gunzip,gz,gzip,jar,lha,lrz,lrzip,lsar,lz,lz4,lzh,lzip,lzma,lzo,lzop,oxt,rar,rar4,rar5,rpm,tar,unar,unarchiver,unarj,unrar,unzip,xpi,xz,zip,zst,Zstandard,zstd
+-xfburn.desktop
+Xfburn
+CD and DVD burning application
+stock_xfburn
+
+5
+Disk Burning
+xfburn
+2
+0
+xfburn
+
+X-XFCE;GTK;DiscBurning;Archiving;AudioVideo;Utility
+
+
++Education
+Education
+
+applications-science
+lxde-education.directory
+2
+0
+-libreoffice-math.desktop
+LibreOffice Math
+Create and edit scientific formulas and equations by using Math.
+libreoffice-math
+
+5
+Formula Editor
+libreoffice --math %U
+2
+0
+
+
+Office;Spreadsheet;Education;Science;Math;X-Red-Hat-Base;X-MandrivaLinux-Office-Other
+Equation,OpenDocument Formula,Formula,odf,MathML
+
++Games
+Games
+Games and amusements
+applications-games
+lxde-game.directory
+2
+0
+-steam-native.desktop
+Steam (Native)
+Application for managing and playing games on Steam
+steam
+
+5
+
+/usr/bin/steam-native %U
+0
+0
+
+
+Network;FileTransfer;Game
+
+-steam.desktop
+Steam (Runtime)
+Application for managing and playing games on Steam
+steam
+
+5
+
+/usr/bin/steam-runtime %U
+0
+0
+
+
+Network;FileTransfer;Game
+
+
++Graphics
+Graphics
+Graphics applications
+applications-graphics
+lxde-graphics.directory
+2
+0
+-gimp.desktop
+GNU Image Manipulation Program
+Create images and edit photographs
+gimp
+
+5
+Image Editor
+gimp-2.10 %U
+2
+0
+gimp-2.10
+
+Graphics;2DGraphics;RasterGraphics;GTK
+GIMP,graphic,design,illustration,painting
+-gpick.desktop
+Gpick
+Color picker
+gpick
+
+5
+Color picker
+gpick
+2
+0
+
+
+Graphics;GTK
+
+-gpicview.desktop
+Image Viewer
+View your images easily
+gpicview
+
+5
+Image Viewer
+gpicview %f
+2
+0
+
+
+Graphics;Core;GTK;Viewer;RasterGraphics;2DGraphics;Photography
+
+-inkscape.desktop
+Inkscape
+Create and edit Scalable Vector Graphics images
+inkscape
+
+5
+Vector Graphics Editor
+inkscape %F
+2
+0
+inkscape
+
+Graphics;VectorGraphics;GTK
+image,editor,vector,drawing
+-libreoffice-draw.desktop
+LibreOffice Draw
+Create and edit drawings, flow charts, and logos by using Draw.
+libreoffice-draw
+
+5
+Drawing Program
+libreoffice --draw %U
+2
+0
+
+
+Office;FlowChart;Graphics;2DGraphics;VectorGraphics;X-Red-Hat-Base;X-MandrivaLinux-Office-Drawing
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Microsoft Visio,Corel Draw,cdr,odg,svg,pdf,vsd
+-ristretto.desktop
+Ristretto Image Viewer
+Look at your images easily
+ristretto
+
+5
+Image Viewer
+ristretto %F
+2
+0
+
+
+GTK;Graphics;Viewer
+
+
++Internet
+Internet
+Programs for Internet access such as web and email
+applications-internet
+lxde-network.directory
+2
+0
+-bssh.desktop
+Avahi SSH Server Browser
+Browse for Zeroconf-enabled SSH Servers
+network-wired
+
+5
+
+/usr/bin/bssh
+0
+0
+
+
+GNOME;Network
+
+-bvnc.desktop
+Avahi VNC Server Browser
+Browse for Zeroconf-enabled VNC Servers
+network-wired
+
+5
+
+/usr/bin/bvnc
+0
+0
+
+
+GNOME;Network
+
+-firefox.desktop
+Firefox
+Browse the World Wide Web
+firefox
+
+5
+Web Browser
+/usr/lib/firefox/firefox %u
+2
+0
+
+
+Network;WebBrowser
+Internet,WWW,Browser,Web,Explorer
+-exo-mail-reader.desktop
+Mail Reader
+Read your email
+emblem-mail
+
+5
+
+exo-open --launch MailReader %u
+2
+8
+
+
+Network;X-XFCE;X-Xfce-Toplevel
+
+-networkmanager_dmenu.desktop
+networkmanager_dmenu
+
+
+
+5
+Networkmanager Settings
+networkmanager_dmenu
+0
+0
+
+
+Settings;Network
+
+-qutebrowser.desktop
+qutebrowser
+A keyboard-driven, vim-like browser based on PyQt5
+qutebrowser
+
+5
+Web Browser
+qutebrowser %u
+0
+0
+
+
+Network;WebBrowser
+Browser
+-steam-native.desktop
+Steam (Native)
+Application for managing and playing games on Steam
+steam
+
+5
+
+/usr/bin/steam-native %U
+0
+0
+
+
+Network;FileTransfer;Game
+
+-steam.desktop
+Steam (Runtime)
+Application for managing and playing games on Steam
+steam
+
+5
+
+/usr/bin/steam-runtime %U
+0
+0
+
+
+Network;FileTransfer;Game
+
+-thunderbird.desktop
+Thunderbird
+Send and receive mail with Thunderbird
+thunderbird
+
+5
+Mail Client
+/usr/lib/thunderbird/thunderbird %u
+2
+0
+
+
+Network;Email
+
+-transmission-gtk.desktop
+Transmission
+Download and share files over BitTorrent
+transmission
+
+5
+BitTorrent Client
+transmission-gtk %U
+2
+0
+transmission-gtk
+
+Network;FileTransfer;P2P;GTK
+
+-exo-web-browser.desktop
+Web Browser
+Browse the web
+web-browser
+
+5
+
+exo-open --launch WebBrowser %u
+2
+8
+
+
+Network;X-XFCE;X-Xfce-Toplevel
+
+
++Office
+Office
+Office Applications
+applications-office
+lxde-office.directory
+2
+0
+-xfce4-dict.desktop
+Dictionary
+A client program to query different dictionaries.
+xfce4-dict
+
+5
+Dictionary Client
+xfce4-dict
+2
+0
+
+
+Office;TextTools;Dictionary;GTK
+
+-libreoffice-startcenter.desktop
+LibreOffice
+The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation.
+libreoffice-startcenter
+
+5
+Office
+libreoffice %U
+2
+0
+
+
+Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Other
+
+-libreoffice-base.desktop
+LibreOffice Base
+Manage databases, create queries and reports to track and manage your information by using Base.
+libreoffice-base
+
+5
+Database Development
+libreoffice --base %U
+2
+0
+
+
+Office;Database;X-Red-Hat-Base;X-MandrivaLinux-MoreApplications-Databases
+Data,SQL
+-libreoffice-calc.desktop
+LibreOffice Calc
+Perform calculations, analyze information and manage lists in spreadsheets by using Calc.
+libreoffice-calc
+
+5
+Spreadsheet
+libreoffice --calc %U
+2
+0
+
+
+Office;Spreadsheet;X-Red-Hat-Base;X-MandrivaLinux-Office-Spreadsheets
+Accounting,Stats,OpenDocument Spreadsheet,Chart,Microsoft Excel,Microsoft Works,OpenOffice Calc,ods,xls,xlsx
+-libreoffice-draw.desktop
+LibreOffice Draw
+Create and edit drawings, flow charts, and logos by using Draw.
+libreoffice-draw
+
+5
+Drawing Program
+libreoffice --draw %U
+2
+0
+
+
+Office;FlowChart;Graphics;2DGraphics;VectorGraphics;X-Red-Hat-Base;X-MandrivaLinux-Office-Drawing
+Vector,Schema,Diagram,Layout,OpenDocument Graphics,Microsoft Publisher,Microsoft Visio,Corel Draw,cdr,odg,svg,pdf,vsd
+-libreoffice-impress.desktop
+LibreOffice Impress
+Create and edit presentations for slideshows, meeting and Web pages by using Impress.
+libreoffice-impress
+
+5
+Presentation
+libreoffice --impress %U
+2
+0
+
+
+Office;Presentation;X-Red-Hat-Base;X-MandrivaLinux-Office-Presentations
+Slideshow,Slides,OpenDocument Presentation,Microsoft PowerPoint,Microsoft Works,OpenOffice Impress,odp,ppt,pptx
+-libreoffice-math.desktop
+LibreOffice Math
+Create and edit scientific formulas and equations by using Math.
+libreoffice-math
+
+5
+Formula Editor
+libreoffice --math %U
+2
+0
+
+
+Office;Spreadsheet;Education;Science;Math;X-Red-Hat-Base;X-MandrivaLinux-Office-Other
+Equation,OpenDocument Formula,Formula,odf,MathML
+-libreoffice-writer.desktop
+LibreOffice Writer
+Create and edit text and images in letters, reports, documents and Web pages by using Writer.
+libreoffice-writer
+
+5
+Word Processor
+libreoffice --writer %U
+2
+0
+
+
+Office;WordProcessor;X-Red-Hat-Base;X-MandrivaLinux-Office-Wordprocessors
+Text,Letter,Fax,Document,OpenDocument Text,Microsoft Word,Microsoft Works,Lotus WordPro,OpenOffice Writer,CV,odt,doc,docx,rtf
+-xfcalendar.desktop
+Orage Calendar
+Desktop calendar
+xfcalendar
+
+5
+Calendar
+orage
+2
+0
+
+
+X-XFCE;Office;Calendar;GTK
+
+-globaltime.desktop
+Orage Globaltime
+Show clocks from different countries
+orage_globaltime
+
+5
+Globaltime
+globaltime
+2
+0
+
+
+X-XFCE;Office;Clock;GTK;Utility
+
+-org.pwmt.zathura.desktop
+Zathura
+A minimalistic document viewer
+org.pwmt.zathura
+
+5
+
+zathura %U
+0
+0
+
+
+Office;Viewer
+PDF,PS,PostScript,DjVU,document,presentation,viewer
+
++Development
+Programming
+Tools for software development
+applications-development
+lxde-development.directory
+2
+0
+-atom.desktop
+Atom
+A hackable text editor for the 21st Century
+atom
+
+5
+Text Editor
+/usr/bin/atom %F
+2
+0
+
+
+GNOME;GTK;Utility;TextEditor;Development
+
+-electron.desktop
+Electron
+
+electron
+
+5
+
+electron %u
+2
+0
+
+
+Development;GTK
+
+-emacs.desktop
+Emacs
+Edit text
+emacs
+
+5
+Text Editor
+emacs %F
+0
+0
+
+
+Development;TextEditor
+Text,Editor
+
++Multimedia
+Sound & Video
+Multimedia menu
+applications-multimedia
+lxde-audio-video.directory
+2
+0
+-audacity.desktop
+Audacity
+Record and edit audio files
+audacity
+
+5
+Sound Editor
+env UBUNTU_MENUPROXY=0 audacity %F
+0
+0
+
+
+AudioVideo;Audio;AudioVideoEditing
+
+-deadbeef.desktop
+DeaDBeeF
+Listen to music
+deadbeef
+
+5
+Audio Player
+deadbeef %F
+0
+0
+
+
+AudioVideo;Player;GTK
+Sound,Music,Audio,Player,Musicplayer,MP3
+-org.xfce.Parole.desktop
+Parole Media Player
+Play your media
+parole
+
+5
+
+parole %F
+2
+0
+
+
+GTK;AudioVideo;Player;Video
+
+-pavucontrol.desktop
+PulseAudio Volume Control
+Adjust the volume level
+multimedia-volume-control
+
+5
+Volume Control
+pavucontrol
+2
+0
+
+
+AudioVideo;Audio;Mixer;GTK
+
+-qv4l2.desktop
+Qt V4L2 test Utility
+Allow testing Video4Linux devices
+qv4l2
+
+5
+
+qv4l2
+0
+0
+
+
+AudioVideo
+video,grabber,V4L
+-qvidcap.desktop
+Qt V4L2 video capture utility
+Viewer for video capture
+qvidcap
+
+5
+
+qvidcap
+0
+0
+
+
+AudioVideo
+video,grabber,V4L
+-vlc.desktop
+VLC media player
+Read, capture, broadcast your multimedia streams
+vlc
+
+5
+Media player
+/usr/bin/vlc --started-from-file %U
+0
+0
+/usr/bin/vlc
+
+AudioVideo;Player;Recorder
+Player,Capture,DVD,Audio,Video,Server,Broadcast
+-volumeicon.desktop
+Volume Icon
+Lightweight volume control for the systray
+multimedia-volume-control
+
+5
+
+volumeicon
+0
+0
+
+
+GTK;AudioVideo;Audio;Mixer
+
+-xfburn.desktop
+Xfburn
+CD and DVD burning application
+stock_xfburn
+
+5
+Disk Burning
+xfburn
+2
+0
+xfburn
+
+X-XFCE;GTK;DiscBurning;Archiving;AudioVideo;Utility
+
+
++System
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+2
+0
+-avahi-discover.desktop
+Avahi Zeroconf Browser
+Browse for Zeroconf services available on your network
+network-wired
+
+5
+
+/usr/bin/avahi-discover
+0
+0
+
+
+GNOME;System
+
+-Thunar-bulk-rename.desktop
+Bulk Rename
+Rename Multiple Files
+Thunar
+
+5
+Bulk Rename
+/usr/lib/Thunar/ThunarBulkRename %F
+2
+0
+
+
+System;Utility;Core;GTK;Filesystem
+
+-conky.desktop
+conky
+
+conky-logomark-violet
+
+5
+
+conky --daemonize --pause=1
+0
+0
+
+
+System;Monitor
+
+-pcmanfm.desktop
+File Manager PCManFM
+Browse the file system and manage the files
+system-file-manager
+
+5
+File Manager
+pcmanfm %U
+2
+0
+
+
+System;FileTools;FileManager;Utility;Core;GTK
+
+-gparted.desktop
+GParted
+Create, reorganize, and delete partitions
+gparted
+
+5
+Partition Editor
+/usr/bin/gparted %f
+2
+0
+
+
+GNOME;System;Filesystem
+Partition
+-htop.desktop
+Htop
+Show System Processes
+htop
+
+5
+Process Viewer
+htop
+1
+0
+
+
+ConsoleOnly;System
+system,process,task
+-jgmenu.desktop
+jgmenu
+Displays menu for launching installed applications
+jgmenu
+
+5
+Application Menu
+jgmenu_run
+0
+0
+
+
+System
+
+-xfce4-session-logout.desktop
+Log Out
+Log out of the Xfce Desktop
+system-log-out
+
+5
+
+xfce4-session-logout
+0
+8
+
+
+System;X-XFCE;X-Xfce-Toplevel
+
+-ranger.desktop
+ranger
+Launches the ranger file manager
+utilities-terminal
+
+5
+
+ranger
+1
+0
+
+
+ConsoleOnly;System;FileTools;FileManager
+
+-xfce4-sensors.desktop
+Sensor Viewer
+Show sensor values.
+xfce-sensors
+
+5
+Sensor Values Viewer
+xfce4-sensors
+2
+0
+
+
+X-XFCE;Utility;System;Monitor
+
+-xfce4-taskmanager.desktop
+Task Manager
+Easy to use task manager
+utilities-system-monitor
+
+5
+Task Manager
+xfce4-taskmanager
+2
+0
+
+
+System;Utility
+
+-termite.desktop
+Termite
+Use the command line
+utilities-terminal
+
+5
+
+termite
+2
+0
+
+
+GTK;System;TerminalEmulator
+
+-Thunar.desktop
+Thunar File Manager
+Browse the filesystem with the file manager
+Thunar
+
+5
+File Manager
+thunar %F
+2
+0
+
+
+System;Utility;Core;GTK;FileTools;FileManager
+
+-tint2.desktop
+Tint2
+Lightweight panel
+tint2
+
+5
+Tint2 panel
+tint2
+0
+0
+
+
+System
+
+-urxvt.desktop
+urxvt
+An unicode capable rxvt clone
+utilities-terminal
+
+5
+
+urxvt
+0
+0
+
+
+System;TerminalEmulator
+
+-urxvtc.desktop
+urxvt (client)
+An unicode capable rxvt clone client for urxvtd
+utilities-terminal
+
+5
+
+urxvtc
+0
+0
+
+
+System;TerminalEmulator
+
+-urxvt-tabbed.desktop
+urxvt (tabbed)
+An unicode capable and tabbed rxvt clone
+utilities-terminal
+
+5
+
+urxvt-tabbed
+0
+0
+
+
+System;TerminalEmulator
+
+-uxterm.desktop
+UXTerm
+xterm wrapper for Unicode environments
+xterm-color_48x48
+
+5
+
+uxterm
+0
+0
+
+
+System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+-xfce4-terminal.desktop
+Xfce Terminal
+Terminal Emulator
+utilities-terminal
+
+5
+Terminal Emulator
+xfce4-terminal
+2
+0
+
+
+GTK;System;TerminalEmulator
+
+-xterm.desktop
+XTerm
+standard terminal emulator for the X window system
+xterm-color_48x48
+
+5
+
+xterm
+0
+0
+
+
+System;TerminalEmulator
+shell,prompt,command,commandline,cmd
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+2
+0
+-xfce4-accessibility-settings.desktop
+Accessibility
+Improve keyboard and mouse accessibility
+preferences-desktop-accessibility
+
+5
+
+xfce4-accessibility-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-nm-connection-editor.desktop
+Advanced Network Configuration
+Manage and change your network connection settings
+preferences-system-network
+
+5
+
+nm-connection-editor
+2
+0
+
+
+GNOME;GTK;Settings;X-GNOME-NetworkSettings
+
+-xfce-ui-settings.desktop
+Appearance
+Customize the look of your desktop
+preferences-desktop-theme
+
+5
+
+xfce4-appearance-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-arandr.desktop
+ARandR
+
+display
+
+5
+Screen Settings
+arandr
+2
+0
+
+
+Settings;HardwareSettings
+
+-xfce-backdrop-settings.desktop
+Desktop
+Set desktop background and menu and icon behavior
+preferences-desktop-wallpaper
+
+5
+
+xfdesktop-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-pcmanfm-desktop-pref.desktop
+Desktop Preferences
+Change desktop wallpapers and behavior of desktop manager
+user-desktop
+
+5
+
+pcmanfm --desktop-pref
+2
+-47
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-xfce-display-settings.desktop
+Display
+Configure screen settings and layout
+video-display
+
+5
+
+xfce4-display-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-thunar-settings.desktop
+File Manager
+Configure the Thunar file manager
+system-file-manager
+
+5
+
+thunar-settings
+2
+0
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce-keyboard-settings.desktop
+Keyboard
+Edit keyboard settings and application shortcuts
+preferences-desktop-keyboard
+
+5
+
+xfce4-keyboard-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-kickshaw.desktop
+Kickshaw
+Openbox menu editor based on Gtk3
+openbox
+
+5
+
+/usr/bin/kickshaw
+2
+0
+
+
+Settings;DesktopSettings
+
+-lightdm-gtk-greeter-settings.desktop
+LightDM GTK+ Greeter settings
+Configure LightDM GTK+ Greeter
+lightdm-gtk-greeter-settings
+
+5
+
+lightdm-gtk-greeter-settings-pkexec
+0
+0
+
+
+GNOME;GTK;Settings;System;Utility;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+Configuration,Utility
+-xfce4-mime-settings.desktop
+MIME Type Editor
+Associate applications with MIME types
+application-x-executable
+
+5
+
+xfce4-mime-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-xfce-mouse-settings.desktop
+Mouse and Touchpad
+Configure pointer device behavior and appearance
+preferences-desktop-peripherals
+
+5
+
+xfce4-mouse-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-xfce4-notifyd-config.desktop
+Notifications
+Customize how notifications appear on your screen
+xfce4-notifyd
+
+5
+
+xfce4-notifyd-config
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-obconf.desktop
+Openbox Configuration Manager
+Tweak settings for Openbox
+obconf
+
+5
+Configuration Manager
+obconf %f
+2
+0
+
+
+Settings;DesktopSettings;GTK
+
+-obkey.desktop
+Openbox Key bindings
+Configure and personalize the Openbox key bindings manager
+obconf
+
+5
+
+obkey %f
+2
+0
+
+
+Settings;DesktopSettings;GTK
+
+-xfce-xfcalendar-settings.desktop
+Orage preferences
+Settings for the Xfce 4 Calendar Application (Orage)
+xfcalendar
+
+5
+Orage Calendar Preferences
+orage -p
+0
+8
+
+
+X-XFCE;Settings;DesktopSettings;X-XfceSettingsDialog
+
+-panel-preferences.desktop
+Panel
+Customize the panel
+xfce4-panel
+
+5
+
+xfce4-panel --preferences
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce4-power-manager-settings.desktop
+Power Manager
+Settings for the Xfce Power Manager
+xfce4-power-manager-settings
+
+5
+Power Manager
+xfce4-power-manager-settings
+2
+-71
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-exo-preferred-applications.desktop
+Preferred Applications
+Preferred Applications (Web Browser, Mail Reader and Terminal Emulator)
+preferences-desktop-default-applications
+
+5
+
+exo-preferred-applications
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-libfm-pref-apps.desktop
+Preferred Applications
+Select applications called on click on Web link or e-mail address
+preferences-desktop
+
+5
+
+libfm-pref-apps
+2
+1
+
+
+Settings;DesktopSettings;X-LXDE-Settings;GTK
+
+-qt5ct.desktop
+Qt5 Settings
+Qt5 Configuration Tool
+preferences-desktop-theme
+
+5
+
+qt5ct
+0
+0
+
+
+Settings;DesktopSettings;Qt
+
+-thunar-volman-settings.desktop
+Removable Drives and Media
+Configure management of removable drives and media
+drive-removable-media
+
+5
+
+thunar-volman-settings
+2
+0
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings
+
+-xfce-session-settings.desktop
+Session and Startup
+Customize desktop startup and splash screen
+xfce4-session
+
+5
+
+xfce4-session-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings
+
+-xfce4-settings-editor.desktop
+Settings Editor
+Graphical settings editor for Xfconf
+preferences-system
+
+5
+
+xfce4-settings-editor
+0
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog
+
+-xfce-settings-manager.desktop
+Settings Manager
+Graphical Settings Manager for Xfce 4
+preferences-desktop
+
+5
+
+xfce4-settings-manager
+0
+8
+
+
+X-XFCE;Settings;DesktopSettings
+
+-tint2conf.desktop
+Tint2 Settings
+Tool to configure the tint2 panel
+tint2conf
+
+5
+Panel configurator
+tint2conf
+0
+0
+
+
+Settings;DesktopSettings
+
+-xfce-wm-settings.desktop
+Window Manager
+Configure window behavior and shortcuts
+xfwm4
+
+5
+
+xfwm4-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce-wmtweaks-settings.desktop
+Window Manager Tweaks
+Fine-tune window behaviour and effects
+wmtweaks
+
+5
+
+xfwm4-tweaks-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce-workspaces-settings.desktop
+Workspaces
+Configure layout, names and margins
+xfce4-workspaces
+
+5
+
+xfwm4-workspace-settings
+2
+8
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+-xfce4-terminal-settings.desktop
+Xfce Terminal
+Terminal Emulator
+utilities-terminal
+
+5
+Terminal Emulator
+xfce4-terminal --preferences
+2
+0
+
+
+XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings
+
+
+

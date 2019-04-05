@@ -1,0 +1,28 @@
+
+** (xfce4-session:640): CRITICAL **: 06:19:02.832: polkit_unix_process_set_property: assertion 'val != -1' failed
+gpg-agent[648]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:640): xfce4-session-WARNING **: 06:19:03.046: gpg-agent returned no PID in the variables
+
+(xfwm4:651): xfwm4-WARNING **: 06:19:05.032: Error waiting on vblank with DRI: Invalid argument
+Cannot register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: An authentication agent already exists for the given subject
+
+(wrapper-2.0:718): Gtk-WARNING **: 06:19:07.598: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(xfdesktop-settings:803): Gtk-WARNING **: 06:20:36.827: Failed to set property GtkColorButton.rgba to : Could not parse RGBA color ''
+urxvt: perl extension 'clipboard' not found in perl library search path
+urxvt: perl extension 'keyboard-select' not found in perl library search path
+urxvt: perl extension 'url-select' not found in perl library search path
+
+(xfdesktop-settings:950): Gtk-WARNING **: 06:26:11.329: Failed to set property GtkColorButton.rgba to : Could not parse RGBA color ''
+
+(xfce4-session:640): Gtk-CRITICAL **: 06:27:00.805: IA__gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(Thunar:652): Gtk-CRITICAL **: 06:27:02.251: gtk_main_quit: assertion 'main_loops != NULL' failed
+
+(xfce4-session:640): GLib-GObject-CRITICAL **: 06:27:02.274: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Gdk-Message: 06:27:02.869: polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 06:27:02.871: nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+

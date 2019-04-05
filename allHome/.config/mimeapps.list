@@ -1,0 +1,8 @@
+[Added Associations]
+x-scheme-handler/mailto=pcmanfm.desktop;
+inode/directory=exo-file-manager.desktop
+x-scheme-handler/trash=exo-file-manager.desktop
+
+[Default Applications]
+x-scheme-handler/mailto=pcmanfm.desktop
+

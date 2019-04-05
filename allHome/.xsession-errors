@@ -1,0 +1,25 @@
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+[ 04/05/2019 06:27:19.002 parse_config_libconfig WARN ] vsync option will take a boolean from now on. "none" is interpreted as "false" for compatibility, but this will stop working soon
+polybar|warn:  No monitor specified, using "eDP1"
+ERROR: openbox-xdg-autostart requires PyXDG to be installed
+urxvt: perl extension 'clipboard' not found in perl library search path
+urxvt: perl extension 'keyboard-select' not found in perl library search path
+urxvt: perl extension 'url-select' not found in perl library search path
+urxvt: perl extension 'clipboard' not found in perl library search path
+urxvt: perl extension 'keyboard-select' not found in perl library search path
+urxvt: perl extension 'url-select' not found in perl library search path
+
+(pcmanfm:1404): Gdk-WARNING **: 06:28:51.342: gdk_window_set_icon_list: icons too large
+
+(xfce4-session-settings:1454): xfce4-session-settings-CRITICAL **: 06:29:17.376: Unable to query session manager for client list: The name org.xfce.SessionManager was not provided by any .service files
+skippy-xd: src/skippy.c:782: mainloop: Assertion `!XEventsQueued(ps->dpy, QueuedAfterReading)' failed.
+urxvt: perl extension 'clipboard' not found in perl library search path
+urxvt: perl extension 'keyboard-select' not found in perl library search path
+urxvt: perl extension 'url-select' not found in perl library search path
+urxvt: perl extension 'clipboard' not found in perl library search path
+urxvt: perl extension 'keyboard-select' not found in perl library search path
+urxvt: perl extension 'url-select' not found in perl library search path
+
+(zenity:2180): GLib-GObject-CRITICAL **: 06:33:03.154: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(pcmanfm:2296): Gdk-WARNING **: 06:35:54.999: gdk_window_set_icon_list: icons too large
